@@ -1,10 +1,13 @@
 # ⚡ Bijayalaxmi Lenka — Full-Stack MERN Developer Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live_Website-portfolio--smoky--one--71.vercel.app-00F2FE?style=for-the-badge&logo=vercel&logoColor=black)](https://portfolio-smoky-one-71.vercel.app/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
+> 🌐 **Live Website**: **[https://portfolio-smoky-one-71.vercel.app/](https://portfolio-smoky-one-71.vercel.app/)**
 
 A modern, high-performance, and fully dynamic developer portfolio engineered for **Bijayalaxmi Lenka** — Backend Developer Intern at **Thryvoo Pvt. Ltd.** and MCA postgraduate student at **Indira Gandhi Institute of Technology (IGIT)**.
 
@@ -46,10 +49,10 @@ A modern, high-performance, and fully dynamic developer portfolio engineered for
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/bijayalaxmilenka2002/portfolio.git
+git clone https://github.com/bijayalaxmilenka2002/Portfolio.git
 
 # Navigate into directory
-cd portfolio
+cd Portfolio
 
 # Install dependencies
 npm install
@@ -69,26 +72,17 @@ npm run preview
 
 ---
 
-## 🌐 Free 1-Click Deployment
+## 🌐 Live Deployment
 
-### Deploy on Vercel (Recommended)
-1. Push this repository to your GitHub account: `https://github.com/bijayalaxmilenka2002/portfolio`.
-2. Go to [vercel.com](https://vercel.com/) and click **"Add New Project"**.
-3. Import your `portfolio` repository.
-4. Framework preset will automatically detect **Vite**.
-5. Click **Deploy**. Your portfolio will be live at `https://your-portfolio.vercel.app` in under 1 minute!
+The portfolio is deployed and hosted on **Vercel** with automatic continuous deployment:
 
-### Deploy on Netlify
-1. Go to [netlify.com](https://www.netlify.com/).
-2. Click **"Add new site"** > **"Import an existing project"**.
-3. Select GitHub and choose your `portfolio` repo.
-4. Build command: `npm run build`, Publish directory: `dist`.
-5. Click **Deploy**.
+👉 **[https://portfolio-smoky-one-71.vercel.app/](https://portfolio-smoky-one-71.vercel.app/)**
 
 ---
 
 ## 📬 Contact
 
+- **Website**: [portfolio-smoky-one-71.vercel.app](https://portfolio-smoky-one-71.vercel.app/)
 - **Email**: [bijayalaxmilenka48@gmail.com](mailto:bijayalaxmilenka48@gmail.com)
 - **GitHub**: [@bijayalaxmilenka2002](https://github.com/bijayalaxmilenka2002)
 - **LinkedIn**: [Bijayalaxmi Lenka](https://www.linkedin.com/in/bijayalaxmi-lenka-69931b268/)
