@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #070a12;
+    --bg-secondary: #0d121f;
+    --border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: #e2e8f0;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Custom Modern Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070a12;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+}
+
+/* Glassmorphic Effects */
+.glass-panel {
+  background: rgba(13, 18, 31, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-glow {
+  background: rgba(13, 18, 31, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 242, 254, 0.15);
+  box-shadow: 0 0 25px rgba(0, 242, 254, 0.08);
+}
+
+.glass-card {
+  background: linear-gradient(135deg, rgba(22, 31, 54, 0.6) 0%, rgba(13, 18, 31, 0.8) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(0, 242, 254, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -10px rgba(0, 242, 254, 0.15);
+}
+
+/* Ambient Radial Background Glows */
+.radial-glow-cyan {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 242, 254, 0.12) 0%, transparent 60%);
+}
+
+.radial-glow-purple {
+  background: radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 65%);
+}
+
+.radial-glow-emerald {
+  background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.1) 0%, transparent 65%);
+}
+
+/* Code Highlighting Simulators */
+.token-keyword { color: #f43f5e; }
+.token-function { color: #38bdf8; }
+.token-string { color: #34d399; }
+.token-comment { color: #64748b; font-style: italic; }
+.token-variable { color: #fbbf24; }
+.token-property { color: #a78bfa; }
